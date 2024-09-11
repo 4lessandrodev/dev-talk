@@ -1,4 +1,4 @@
-var caracteresValidos = 'ABCDEFGHIGJK LMNOPQRSTUVXYZ'.split('');
+var caracteresValidos = 'ÃÁÇÊABCDEFGHIGJKLMNOPQRSTUVXYZ'.split('');
 
 export function ehCaracterValidoParaNome(caracter: string): boolean {
     return caracteresValidos.includes(caracter.toUpperCase());

@@ -4,12 +4,17 @@
   "main": "index.mjs",
   "author": "alessandrodev <alessandroadm@live.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">= 22.x"
+  },
   "type": "module",
   "scripts": {
-    "formatar-nome": "node --experimental-strip-types index.ts"
+    "formatar-nome": "node --no-warnings --experimental-strip-types index.ts",
+    "test": "vitest"
   },
   "devDependencies": {
+    "@types/node": "^22.5.4",
     "typescript": "^5.6.2",
-    "@types/node": "^22.5.4"
+    "vitest": "^2.0.5"
   }
 }
