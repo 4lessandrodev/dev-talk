@@ -1,0 +1,20 @@
+{
+  "name": "nome-validator",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "author": "alessandrodev <alessandroadm@live.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 22.x"
+  },
+  "type": "module",
+  "scripts": {
+    "formatar-nome": "node --no-warnings --experimental-strip-types index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2",
+    "vitest": "^2.0.5"
+  }
+}
